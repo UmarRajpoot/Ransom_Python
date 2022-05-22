@@ -67,9 +67,6 @@ def encrypted_File():
     Encrypted_Files()
 
 
-# encrypted_File()
-# decrypted_file()
-
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(
@@ -82,9 +79,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     if args.encrypt:
-        print("Encrption")
         encrypted_File()
 
     elif args.decrypt:
-        print("decrypt")
         decrypted_file()
