@@ -1,6 +1,4 @@
-from ast import parse
 import os
-from tokenize import String
 from cryptography.fernet import Fernet
 import argparse
 
@@ -41,7 +39,7 @@ def Encrypted_Files():
     print("Encrypted Files Done")
 
 
-def unLock_file():
+def Decryption_Files():
     for file in files_list:
         with open(basePath(file), "rb") as readFile:
             contents = readFile.read()
@@ -58,7 +56,7 @@ def delete_secret_key():
 
 def decrypted_file():
     read_secretKey()
-    unLock_file()
+    Decryption_Files()
     delete_secret_key()
 
 
