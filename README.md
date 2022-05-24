@@ -46,6 +46,14 @@ Helping command
 python setup.py -h
 ```
 
+## Progress
+
+- [x] Encryption and Decryption on Sample Folder
+- [ ] File Path based. (E/D)
+- [ ] Multiple File Path based (Path of file that contain multiple path of file that you want on security). (E/D)
+- [ ] Single Image and Video File. (E/D)
+- [ ] Multiple images or video file security. (E/D)
+
 ## Authors
 
 Contributors names and contact info
